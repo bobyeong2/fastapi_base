@@ -36,15 +36,16 @@ ProjectFolder (project root folder)
 |
 |--- tests ---                 (각종 Test Code를 정의하는 공간)
 |
-|--- webapps --                 (webapp의 router를 정의하고 구현하는 공간)
-
+|--- webapps --                (webapp의 router를 정의하고 구현하는 공간)
+|
+|--- .env                      (DataBase Config file 대개 gitignore로 설정 내용이 보이지 않도록 설정함.)
 ```
 
 3. 실행
 
 - 해당 파일 clone
 ```
-CMD : git clone {repository}
+CMD : git clone {this repository}
 ```
 
 - requirements.txt에 명시된 패키지 설치
